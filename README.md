@@ -1,8 +1,6 @@
 # RealPhoneValidation
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/real_phone_validation`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is a simple API integration to RealPhoneValidation. T2 is using it primarily for the DNC API. Pull requests are welcome for any additional functionality.
 
 ## Installation
 
