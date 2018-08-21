@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Since currently we only support the one API, usage is pretty simple.
+
+```
+require 'real_phone_validation'
+result = RealPhoneValidation::PhoneNumber.new('(801)-555-5555').dnc_lookup
+result.dnc?
+```
 
 ## Development
 
