@@ -12,11 +12,8 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     byebug (10.0.2)
     coderay (1.1.2)
-    crack (0.4.3)
-      safe_yaml (~> 1.0.0)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    hashdiff (0.3.7)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -37,14 +34,9 @@ GEM
       method_source (~> 0.9.0)
     public_suffix (3.0.3)
     rake (10.5.0)
-    safe_yaml (1.0.4)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
-    webmock (3.4.2)
-      addressable (>= 2.3.6)
-      crack (>= 0.3.2)
-      hashdiff
 
 PLATFORMS
   ruby
@@ -57,7 +49,6 @@ DEPENDENCIES
   pry
   rake (~> 10.0)
   real_phone_validation!
-  webmock
 
 BUNDLED WITH
    1.16.1
