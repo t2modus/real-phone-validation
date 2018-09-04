@@ -9,7 +9,11 @@ module RealPhoneValidation
 
     class << self
       def request(url)
-        Ox.load(HTTP.get("#{BASE_URL}#{url}&token=#{Configuration.instance.api_token}").body.to_s, mode: :hash)
+        if Configuration.instance.api_token
+          Ox.load(HTTP.get("#{BASE_URL}#{url}&token=#{Configuration.instance.api_token}").body.to_s, mode: :hash)
+        else
+          raise ::RealPhoneValidation::Error, 'The Real Phone Validation API must be configured with a valid API token.'
+        end
       end
     end
   end
